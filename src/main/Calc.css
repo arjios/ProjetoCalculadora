@@ -6,4 +6,7 @@
     background-color: red; 
     box-shadow: 0 0  0 2px rgb(255,255,255),
                 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(5, 20%);
 }
